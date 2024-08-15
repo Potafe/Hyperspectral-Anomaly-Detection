@@ -82,7 +82,7 @@ Methodology
   ### LRX (Low Rank Representation)
 * Purpose: The Low Rank Representation (LRX) method is used for anomaly detection by decomposing the hyperspectral image into a low-rank part and a sparse part. The sparse component represents the anomalies in the image.
 * Approach: LRX assumes that the background of the hyperspectral image can be modeled as a low-rank matrix, while the anomalies contribute to the sparse matrix. The method uses matrix decomposition techniques to separate the background from the anomalies, with the anomalies being identified in the sparse matrix.
-  ### RX (Reed-Xiaoli Detector)
+### RX (Reed-Xiaoli Detector)
 * Purpose: The Reed-Xiaoli (RX) detector is a statistical anomaly detection method commonly used in hyperspectral imaging. It identifies anomalies by comparing the spectral signature of each pixel against the global statistical properties of the image.
 * Approach: The RX detector computes a Mahalanobis distance for each pixel relative to the mean and covariance of the image. Pixels with a high Mahalanobis distance are flagged as anomalies, as they deviate significantly from the background distribution.
 
