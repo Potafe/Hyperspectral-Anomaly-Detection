@@ -52,7 +52,7 @@ def LRXfunc(image, InnerWindowSize, OuterWindowSize, delta):
     return d_LRX_show
 
 # Load the data
-data = scipy.io.loadmat(r'C:\Users\Yazat\OneDrive\Desktop\Anomaly_Codes\Data\pavia.mat')['data']  # Replace 'data' with the actual variable name in the .mat file
+data = scipy.io.loadmat(r'<path_to_your_dataset>')['<mat_key>']  # Replace 'data' with the actual variable name in the .mat file
 
 # Run the LRX function
 d_LRX_show = LRXfunc(data, 3, 5, 1e-5)

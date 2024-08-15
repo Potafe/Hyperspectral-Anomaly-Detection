@@ -107,8 +107,8 @@ def plot_anomalies_on_image(data, anomalies, height, width):
 # Main process
 if __name__ == '__main__':
     # Paths to the .mat file and the variable containing the hyperspectral data
-    mat_file_path = r"C:\Users\Yazat\OneDrive\Desktop\Anomaly_Codes\Data\pavia.mat"
-    variable_name = 'data'  # Replace with the actual variable name in the .mat file
+    mat_file_path = r"<path_to_your_dataset>"
+    variable_name = '<mat_key>'  # Replace with the actual variable name in the .mat file
 
     try:
         # Load and preprocess the data

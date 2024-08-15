@@ -8,10 +8,10 @@ from tqdm import tqdm
 
 # Load the .mat file containing hyperspectral data
 print("Loading hyperspectral data...")
-mat_data = loadmat(r'C:\Users\Yazat\Desktop\Test_Files\Data\GM17.mat')
+mat_data = loadmat(r'<path_to_your_dataset>')
 
 # Extract hyperspectral data
-hyperspectral_data = mat_data['img']  # Replace 'data' with the actual variable name in your .mat file
+hyperspectral_data = mat_data['<mat_key>']  # Replace 'data' with the actual variable name in your .mat file
 
 # Assuming 'hyperspectral_data' is a 3D array: (height, width, num_bands)
 height, width, num_bands = hyperspectral_data.shape

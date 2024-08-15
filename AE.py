@@ -22,7 +22,7 @@ def load_data(file_path):
     return mat['img']
 
 def main():
-    file_path = r"C:\Users\Yazat\Desktop\Test_Files\Data\GM17.mat"  
+    file_path = r"<path_to_your_dataset>"  
     data = load_data(file_path)
 
     rows, cols, bands = data.shape

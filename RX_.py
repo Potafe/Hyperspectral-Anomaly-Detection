@@ -36,7 +36,7 @@ def normalization(s, b=0):
     return s_new
 
 # Load the data
-data = scipy.io.loadmat(r'C:\Users\Yazat\OneDrive\Desktop\Anomaly_Codes\Data\pavia.mat')['data']  # Replace 'data' with the actual variable name in the .mat file
+data = scipy.io.loadmat(r'<path_to_your_dataset>')['<mat_key>']  # Replace 'data' with the actual variable name in the .mat file
 
 # Run the RX function
 R = RXfunc(data)
