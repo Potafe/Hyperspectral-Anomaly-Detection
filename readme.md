@@ -11,7 +11,7 @@ Table of Contents
   * [Usage](#usage)
   * [Methodology](#methodology)
   * [Results](#result)
-  * [Contribution](*contributions)
+  * [Contributions](*contributions)
   * [License](#license)
 <!--te-->
 
